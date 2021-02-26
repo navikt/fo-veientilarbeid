@@ -2,7 +2,7 @@
 
 .demodashboard {
     background-color: @navLimeGronn;
-    padding: 2rem 1rem;
+    padding: .5rem 1rem;
 }
 
 @media (min-width: @screen-sm-min) {
@@ -37,16 +37,45 @@
 
 @media (min-width: @screen-md-min) {
     .demodashboard {
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        place-items: center;
         .skjemaelement {
-            width: 14.5rem;
+            display: grid;
+            grid-template-columns: 220px 230px;
+
+            &:nth-child(odd) {
+                background-color: #899200;
+            }
+        }
+        .skjemaelement__label {
+            display: grid;
+            place-items: center end;
+
+            margin: 2px 0;
+            padding: 0 10px 0 5px;
         }
     }
     .two-select {
         flex-wrap: nowrap;
+        flex-direction: column;
 
         .skjemaelement {
             margin: 0 0.5rem 0;
         }
     }
+    .inputPanelGruppe__inner {
+        flex-direction: column;
+    }
+
+    .inputPanel {
+        padding: 0;
+        width: 350px;
+    }
+    .inputPanel__label::before {
+        top: 0;
+        right: 0;
+        left: auto;
+    }
+
 }

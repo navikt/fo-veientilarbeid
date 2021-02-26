@@ -1,17 +1,17 @@
 const tekster = {
     'demo-autentiseringsinfo': 'Nivå 3',
-    'demo-brukerregistrering': 'Velg fremtidig situasjon',
+    'demo-brukerregistrering': 'Fremtidig situasjon',
     'demo-dialog': 'Uleste dialoger',
     'demo-egenvurdering': 'Lagret egenvurdering',
-    'demo-foreslatt-innsatsgruppe': 'Velg foreslått innsatsgruppe',
+    'demo-foreslatt-innsatsgruppe': 'Foreslått innsatsgruppe',
     'demo-jsk': 'Lagret JSK',
     'demo-krr': 'Reservasjon KRR',
     'demo-motestotte': 'Møtestøtte gjennomført',
-    'demo-opprettetregistreringdato': 'Velg registreringsdato',
+    'demo-opprettetregistreringdato': 'Registreringsdato',
     'demo-sykmelding': 'Sykmelding',
     'demo-tittel': 'Demo av Veien til arbeid',
-    'demo-velgservicegruppe': 'Velg innsatsgruppe',
-    'demo-velgformidlingsgruppe': 'Velg formidlingsgruppe',
+    'demo-velgservicegruppe': 'Innsatsgruppe',
+    'demo-velgformidlingsgruppe': 'Formidlingsgruppe',
     'dagpenger.belop.innhold':
         '<p> Dagpenger utgjør omtrent 62,4 prosent av hva du hadde i lønnsinntekt og eventuelle trygdeytelser det siste året før du søkte dagpenger, eller gjennomsnittet av de 3 siste årene før du søkte dagpenger. Du vil få det som gir den beste beregningen i din situasjon. Næringsinntekt, pensjon og engangsstønad ved fødsel regnes ikke med i grunnlaget for dagpengene.</p>\n<p> Husk at du må betale skatt av dagpenger. </p>\n<p> Inntekt over 6 ganger gjennomsnittet av <a class="lenke" href=" https://www.nav.no/no/NAV+og+samfunn/Kontakt+NAV/Utbetalinger/Grunnbelopet+i+folketrygden">folketrygdens grunnbeløp (6G) </a> det enkelte kalenderår, tas ikke med i beregningen av dagpenger.</p>\n<p class="typo-element"> I tillegg til lønnsinntekt, tas disse stønadene med i beregningen av dagpenger:</p>\n<ul>\n    <li class="blokk-xxxs">Sykepenger</li>\n    <li class="blokk-xxxs">Omsorgspenger</li>\n    <li class="blokk-xxxs">Pleiepenger</li>\n    <li class="blokk-xxxs">Opplæringspenger</li>\n    <li class="blokk-xxxs">Svangerskapspenger</li>\n    <li class="blokk-xxxs">Foreldrepenger ved fødsel og adopsjon</li>\n    <li class="blokk-xxxs">Dagpenger</li>\n</ul>\n\n<p> Legg merke til at beregningen av hvor mye du får i dagpenger, og beregningen av om du har hatt nok i minsteinntekt til å ha rett til dagpenger, er to ulike beregninger. Les mer om minsteinntekt under punktet «Har jeg rett på dagpenger?». </p>\n<p> Har du bidragsplikt eller forsørger barn under 18 år, får du et tillegg på 17 kroner per barn 5 dager i uken. Du kan også søke om barnetillegg for barn som er bosatt i et land som omfattes av EØS-reglene og/eller Nordisk konvensjon om trygd. Hvis begge foreldre får dagpenger, er det bare én av foreldrene som får tillegget utbetalt. </p>',
     'dagpenger.innhold':

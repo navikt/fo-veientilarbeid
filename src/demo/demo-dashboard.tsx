@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { Innholdstittel } from 'nav-frontend-typografi';
 import { CheckboksPanelGruppe, Select as SelectKomponent } from 'nav-frontend-skjema';
 import {
     DemoData,
@@ -255,10 +254,9 @@ class DemoDashboard extends React.Component<{}> {
 
         return (
             <section className="demodashboard">
-                <Innholdstittel className="blokk-s">{tekster['demo-tittel']}</Innholdstittel>
                 <div className="two-select">
                     <SelectKomponent
-                        label={'Velg geografisk tilknytning'}
+                        label={'Geografisk tilknytning'}
                         onChange={handleChangeGeografiskTilknytning}
                         id="velg-geografisktilknytning"
                         defaultValue={hentGeografiskTilknytning()}
@@ -270,7 +268,7 @@ class DemoDashboard extends React.Component<{}> {
                         ))}
                     </SelectKomponent>
                     <SelectKomponent
-                        label={'Velg rettighetsgruppe'}
+                        label={'Rettighetsgruppe'}
                         onChange={handleChangeRettighetsgruppe}
                         id="velg-rettighetsgruppe"
                         defaultValue={hentRettighetsgruppe()}
@@ -282,7 +280,7 @@ class DemoDashboard extends React.Component<{}> {
                         ))}
                     </SelectKomponent>
                     <SelectKomponent
-                        label={'Velg registreringstype'}
+                        label={'Registreringstype'}
                         onChange={handleChangeRegistreringType}
                         id="velg-registreringtype"
                         defaultValue={hentRegistreringType()}
@@ -331,8 +329,7 @@ class DemoDashboard extends React.Component<{}> {
                                 </option>
                             ))}
                     </SelectKomponent>
-                </div>
-                <div className="two-select">
+
                     <SelectKomponent
                         label={tekster['demo-brukerregistrering']}
                         onChange={handleChangeBrukerregistrering}
